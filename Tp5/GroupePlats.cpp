@@ -21,6 +21,7 @@ void GroupePlats::exportHTML(string& text) {
 	if (price != NULL) {
 		nom += (string)" ";
 		nom += to_string(int(price));
+		nom += "€";
 	}
 	string exports = "<h1>" + nom + "</h1>\n";
 	text += exports;

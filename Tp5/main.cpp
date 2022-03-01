@@ -6,7 +6,6 @@
 #include "Plat.h"
 #include "GroupePlats.h"
 using namespace std;
-//C++
 
 void TemplateHTML(string& text) {
 	ifstream entrer("PizzTemplate.html", ios::in);
